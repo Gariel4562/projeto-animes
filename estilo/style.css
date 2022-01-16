@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+}
+:root {
+    --cor0:#9442FD;
+    --cor1:#573BE3;
+    --cor2:#4E5FFA;
+    --cor3:#3B78E3;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Rubik Mono One', sans-serif;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    font-family:var(--fonte-destaque) ;
+    font-size: 2em;
+    margin-bottom:20px;
+    background-image: linear-gradient(to right, blue, transparent);
+    
+    
+}
+
+header {
+    background-color: var(--cor0);
+    
+    
+}
+
+nav {
+    text-align: center;
+    background-color: var(--cor1);
+
+}
+
+nav a {
+    margin:5px;
+    font-size: 1.2em;
+    font-family: var(--fonte-padrao);
+
+}
+
+
+main article {
+    background-color: var(--cor0);
+    margin:auto;
+    max-width:600px;
+    height:670px;
+    text-align: center;
+    margin-top:50px;
+    padding-bottom:50px;
+    padding-left:15px;
+    border-radius: 20px;
+
+    
+
+
+
+
+}
+
+img {
+    width:80%
+    
+    
+}
+
+h2 {
+    background-image: linear-gradient(to right, blue, transparent);
+    font-family: var(--fonte-destaque);
+    margin-bottom:10px;
+    margin-top:10px;
+
+}
+
+ul li {
+    list-style: inside;
+    line-height: 20px;
+}
+
+footer {
+    background-color: var(--cor1);
+    color:black;
+    text-align: center;
+    margin-top:112px;
+    padding-top:5px;
+}
+
