@@ -97,8 +97,6 @@ main article {
     text-align: center;
     margin-top:50px;
     padding-bottom:20px;
-
-    
     padding-left:15px;
     border-radius: 20px;
 
@@ -123,10 +121,20 @@ h2 {
 
 }
 
-ul li {
+main article aside ul li {
     list-style: inside;
     line-height: 20px;
+    list-style: none;
+    
+    
 }
+
+aside ul li a {
+    text-decoration: none;
+}
+
+
+
 
 footer {
     background-color: var(--cor1);
@@ -134,5 +142,10 @@ footer {
     text-align: center;
     margin-top:112px;
     padding-top:5px;
+    
+}
+
+footer p a {
+    text-decoration: none;
 }
 
