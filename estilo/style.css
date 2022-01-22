@@ -31,9 +31,22 @@ h1 {
     font-family:var(--fonte-destaque) ;
     font-size: 2em;
     margin-bottom:20px;
-    background-image: linear-gradient(to right, blue, transparent);
+    background-image: linear-gradient(to right, transparent, blue, transparent);
     
     
+}
+
+main article h2 {
+    text-align: center;
+    font-family:var(--fonte-destaque) ;
+    font-size: 1.5em;
+    margin-bottom:10px;
+    background-image: linear-gradient(to right, transparent, blue, transparent);
+    
+
+
+
+
 }
 
 header {
@@ -42,17 +55,37 @@ header {
     
 }
 
+audio {
+    display: block;
+    margin-top:10px;
+    height:40px;
+    margin:auto;
+    
+}
+
 nav {
     text-align: center;
     background-color: var(--cor1);
+    margin-bottom: 10px;
 
 }
 
 nav a {
-    margin:5px;
-    font-size: 1.2em;
+    margin:7px;
+    font-size: 1.5em;
     font-family: var(--fonte-padrao);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration:.5s;
 
+    
+}
+
+nav a:hover {
+    background-color: var(--cor2);
+    padding:5px;
+    color:violet;
 }
 
 
@@ -63,7 +96,9 @@ main article {
     height:670px;
     text-align: center;
     margin-top:50px;
-    padding-bottom:50px;
+    padding-bottom:20px;
+
+    
     padding-left:15px;
     border-radius: 20px;
 
