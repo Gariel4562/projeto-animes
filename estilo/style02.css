@@ -20,12 +20,6 @@
 
 }
 
-
-
-
-
-
-
 h1 {
     text-align: center;
     font-family:var(--fonte-destaque) ;
@@ -36,30 +30,9 @@ h1 {
     
 }
 
-main article h2 {
-    text-align: center;
-    font-family:var(--fonte-destaque) ;
-    font-size: 1.5em;
-    margin-bottom:10px;
-    background-image: linear-gradient(to right, transparent, blue, transparent);
-    
-
-
-
-
-}
-
 header {
     background-color: var(--cor0);
     
-    
-}
-
-audio {
-    display: block;
-    margin-top:10px;
-    height:40px;
-    margin:auto;
     
 }
 
@@ -89,49 +62,19 @@ nav a:hover {
 }
 
 
-main article {
-    background-color: var(--cor0);
-    margin:auto;
-    max-width:600px;
-    height:670px;
-    text-align: center;
-    margin-top:50px;
-    padding-bottom:30px;
-    padding-left:15px;
-    border-radius: 20px;
-
-    
 
 
 
 
-}
 
-img {
-    width:80%
-    
-    
-}
 
-h2 {
-    background-image: linear-gradient(to right, blue, transparent);
-    font-family: var(--fonte-destaque);
-    margin-bottom:10px;
-    margin-top:10px;
 
-}
 
-main article aside ul li {
-    list-style: inside;
-    line-height: 20px;
-    list-style: none;
-    
-    
-}
 
-aside ul li a {
-    text-decoration: none;
-}
+
+
+
+
 
 footer {
     background-color: var(--cor1);
