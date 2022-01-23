@@ -59,7 +59,14 @@ nav a:hover {
     background-color: var(--cor2);
     padding:5px;
     color:violet;
+    border-radius: 15px;
 }
+
+nav a:active {
+    color:red;
+}
+
+
 
 
 
@@ -87,5 +94,17 @@ footer {
 
 footer p a {
     text-decoration: none;
+}
+
+footer a:hover {
+    background-color: var(--cor2);
+    padding:5px;
+    color:blueviolet;
+    transition-duration:.5s;
+    border-radius: 15px;
+}
+
+footer a:active {
+    color:red;
 }
 
