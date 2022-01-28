@@ -98,7 +98,7 @@ main article {
     background-color: var(--cor0);
     margin:auto;
     max-width:600px;
-    height:670px;
+    height:800px;
     text-align: center;
     margin-top:50px;
     padding-bottom:30px;
@@ -126,15 +126,18 @@ h2 {
 
 }
 
-main article aside ul li {
+main article aside ol li {
     list-style: inside;
-    line-height: 20px;
-    list-style: none;
+    list-style-type:decimal;
+    text-decoration: none;
+    line-height: 50px;
+    
+    
     
     
 }
 
-aside ul li a {
+aside ol li a {
     text-decoration: none;
 
 }
