@@ -71,12 +71,13 @@ main article {
     background-color: var(--cor0);
     margin:auto;
     max-width:500px;
-    height:1150px;
+    height:1160px;
     text-align: center;
     margin-top:50px;
     padding-bottom:30px;
     border-radius: 20px;
-    padding:20px;
+    padding:23px;
+    
 
 }
 
