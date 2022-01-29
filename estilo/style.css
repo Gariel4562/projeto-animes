@@ -98,12 +98,11 @@ main article {
     background-color: var(--cor0);
     margin:auto;
     max-width:600px;
-    height:800px;
+    height:720px;
     text-align: center;
     margin-top:50px;
-    padding-bottom:30px;
-    padding-left:15px;
     border-radius: 20px;
+    padding:10px;
 
     
 
@@ -113,7 +112,7 @@ main article {
 }
 
 img {
-    width:80%
+    width:100%;
     
     
 }
