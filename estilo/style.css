@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
+/*Configuração site */
+
 *{
     padding:0px;
     margin:0px;
@@ -97,12 +99,13 @@ nav a:active {
 main article {
     background-color: var(--cor0);
     margin:auto;
-    max-width:600px;
-    height:720px;
+    max-width:500px;
+    height:680px;
     text-align: center;
     margin-top:50px;
     border-radius: 20px;
-    padding:10px;
+    padding:20px;
+   
 
     
 

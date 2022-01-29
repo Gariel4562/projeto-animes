@@ -66,6 +66,38 @@ nav a:active {
     color:red;
 }
 
+main article {
+    background-color: var(--cor0);
+    margin:auto;
+    max-width:500px;
+    height:1100px;
+    text-align: center;
+    margin-top:50px;
+    padding-bottom:30px;
+    border-radius: 20px;
+    padding:20px;
+
+}
+
+h2 {
+    text-align: center;
+    font-family:var(--fonte-destaque) ;
+    
+    margin-bottom:20px;
+    background-image: linear-gradient(to right, transparent, blue, transparent);
+    
+    
+}
+div.video > iframe {
+    width:100%;
+
+
+
+
+
+}
+
+
 
 
 
